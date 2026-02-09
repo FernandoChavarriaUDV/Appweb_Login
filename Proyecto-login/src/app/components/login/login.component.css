@@ -1,0 +1,29 @@
+/* Fondo centrado con color suave */
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #3f51b5, #5c6bc0);
+}
+
+/* Estilo de la tarjeta del formulario */
+mat-card {
+  width: 380px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+/* Espaciado entre campos */
+mat-form-field {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Botón de login */
+button {
+  width: 100%;
+  margin-top: 1rem;
+}
