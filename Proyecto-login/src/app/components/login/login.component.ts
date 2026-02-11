@@ -4,6 +4,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { AuthService } from '../../services/auth.service';
+
 
 @Component({
   selector: 'app-login',
@@ -21,6 +23,8 @@ import { MatCardModule } from '@angular/material/card';
 export class LoginComponent {
   username: string = '';
   password: string = '';
+
+  
 
   onSubmit() {
     console.log('Usuario:', this.username);
